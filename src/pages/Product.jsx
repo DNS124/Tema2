@@ -57,7 +57,7 @@ export function Product() {
           }}>Adaugă în coș</Button>
         <Button variant="info"
           onClick={() => {
-            handleAddToCart({
+            handleAddToFavorites({
               id,
               image: thumb,
               name: name,
